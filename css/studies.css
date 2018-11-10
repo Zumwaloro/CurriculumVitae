@@ -1,0 +1,73 @@
+html {	
+  background: url(../img/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Helvetica Neue', sans-serif;  
+}
+
+.info {
+	width: 400;
+	height: auto;
+	background: rgba(0,0,0,0.65);
+	padding: 40px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.info p {
+	color: white;
+	font-size: 100%;
+	text-align: justify;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	letter-spacing: 10; 
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 100%;
+}
+
+.back {
+	color: white;
+	text-decoration: none;
+	font-size: 35px;
+	vertical-align: middle;
+	margin-top: 30px;
+}
+
+.line-break {
+	width: 300px;
+	margin: 0 auto;
+	border-top: 1px solid white;
+}
+
+.underscore {
+	width: 400px;
+	margin: 0 auto;
+	border-top: 1px solid white;
+}
+
+.to-top {
+	color: white;
+	margin: 0 auto;
+	decoration: none;
+	font-size: 100%;
+}
+
+.info a {
+	color: white;
+	text-decoration: none;
+}
+
+.elte {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

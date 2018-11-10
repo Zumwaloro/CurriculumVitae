@@ -1,0 +1,51 @@
+html {	
+  background: url(../img/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Helvetica Neue', sans-serif;  
+}
+
+
+.table-info {
+	width: 50%;
+	background: rgba(0,0,0,0.65);
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+th {	
+	height: 50px;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	text-decoration: none;
+}
+
+td {	
+	height: 50px;
+	text-align: center;
+	color: white;
+	letter-spacing: 5;
+}
+
+.line {
+	width: 600px;
+	margin: 0 auto;
+	border-top: 1px solid white;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	letter-spacing: 10; 
+}
+
+.back {
+	color: white;
+	text-decoration: none;
+	font-size: 35px;
+	vertical-align: middle;
+	margin-top: 30px;
+}

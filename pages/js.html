@@ -1,0 +1,71 @@
+<html>
+
+	<head>
+		<title>JavaScript fun!</title>
+		<link rel="stylesheet" type="text/css" href="../css/js.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	
+	<body>
+		
+		<script src="../script/manager.js"></script>
+	
+		<div>
+			<a href="index.html" class="back" title="Home"><i class="fas fa-arrow-circle-left"></i></a>
+		</div>
+		
+		<div>
+			<a href="JavaScript:void(0)" class="info" title="What is this page?"
+			onmouseover="this.style.color='red';"
+			onmouseleave="this.style.color='white';"
+			onClick="infoAlert();">
+			<i class="far fa-info-circle"></i></a>
+		</div>
+		
+		<div class="platform">
+			
+			<h1>To-do-list manager 4000</h1>
+			
+			<h5><i>"Only, if we had this technology a few years ago,<br/>we would have already colonized Mars!"</i><br/>Elon Musk - SpaceX CEO</h5>
+			
+			<div class="line"></div>
+			
+			<h3>Add and retrieve information</h5>			
+			
+			<div class="interface">
+				
+				<a title="Add task!" onClick="addTask();" onmouseleave="this.style.color='white';" onmouseover="this.style.color='red';"><i class="fas fa-plus-circle"></i></a>
+				
+				<a title="Search task in database!" onClick="searchTask();" onmouseleave="this.style.color='white';" onmouseover="this.style.color='red';"><i class="fas fa-search"></i></a>
+				
+				<a title="Delete task!" onClick="deleteTask();"><i class="far fa-trash-alt" onmouseleave="this.style.color='white';" onmouseover="this.style.color='red';"></i></a>
+				
+				<a title="Help!" onClick="helpAlert();" onmouseleave="this.style.color='white';" onmouseover="this.style.color='red';"><i class="fas fa-ambulance"></i></a>
+				
+			</div>
+			
+			<form>
+			
+				<div class="details">
+					
+					<a><i class="far fa-user"></i></a>
+					<input type="text" value="name: e.g. Attila" id="name" onfocus="if(this.value=='name: e.g. Attila'){this.value='';}" onblur="if(this.value == ''){this.value='name: e.g. Attila';}">
+					
+					<a><i class="far fa-calendar-alt"></i></a>
+					<input type="text" value="dd.mm.yyyy" id="date" onfocus="if(this.value=='dd.mm.yyyy'){this.value='';}" onblur="if(this.value == ''){this.value='dd.mm.yyyy';}">
+					
+					<a><i class="fas fa-tasks"></i></a>
+					<input type="text" value="task: e.g. programming" id="task" onfocus="if(this.value=='task: e.g. programming'){this.value='';}" onblur="if(this.value == ''){this.value='task: e.g. programming';}">					
+					
+				</div>
+			
+			</form>
+			
+		</div>
+		
+		
+	</body>
+	
+</html>
